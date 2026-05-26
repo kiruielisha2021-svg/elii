@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>King's Cyber - Irwaga Centre</title>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <div class="logo-section">
+    <img src="uploads/logo.png" alt="King's Cyber Logo">
+    <div>
+      <h1>KING'S CYBER</h1>
+      <p>Irwaga Centre</p>
+    </div>
+  </div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#request">Request Service</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="overlay">
+    <h2>Professional Cyber Services</h2>
+    <p>
+      Fast • Reliable • Secure • Affordable
+    </p>
+
+    <a class="btn"
+       href="https://wa.me/254704723832?text=Hello%20King's%20Cyber,%20I%20would%20like%20to%20request%20your%20services."
+       target="_blank">
+       Chat on WhatsApp
+    </a>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <h2>Our Services</h2>
+
+  <div class="service-grid">
+
+    <div class="card">
+      <h3>Printing</h3>
+      <p>High quality black & white and color printing.</p>
+    </div>
+
+    <div class="card">
+      <h3>Photocopy</h3>
+      <p>Fast photocopying services at affordable prices.</p>
+    </div>
+
+    <div class="card">
+      <h3>Lamination</h3>
+      <p>Document protection with quality lamination.</p>
+    </div>
+
+    <div class="card">
+      <h3>Scanning</h3>
+      <p>Professional scanning and soft copy conversion.</p>
+    </div>
+
+    <div class="card">
+      <h3>KRA Services</h3>
+      <p>KRA filing, PIN registration and tax returns.</p>
+    </div>
+
+    <div class="card">
+      <h3>NTSA Services</h3>
+      <p>Driving license renewal and NTSA applications.</p>
+    </div>
+
+    <div class="card">
+      <h3>Passport Application</h3>
+      <p>Online passport application assistance.</p>
+    </div>
+
+    <div class="card">
+      <h3>KUCCPS Applications</h3>
+      <p>Course applications and revision support.</p>
+    </div>
+
+    <div class="card">
+      <h3>Computer Training</h3>
+      <p>Basic computer packages and ICT training.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="request-section" id="request">
+  <h2>Request a Service</h2>
+
+  <form action="submit_request.php" method="POST">
+
+    <input type="text" name="name" placeholder="Your Name" required>
+
+    <input type="text" name="phone" placeholder="Phone Number" required>
+
+    <select name="service" required>
+      <option value="">Select Service</option>
+      <option>Printing</option>
+      <option>Photocopy</option>
+      <option>Lamination</option>
+      <option>Scanning</option>
+      <option>KRA Services</option>
+      <option>NTSA Services</option>
+      <option>Passport Application</option>
+      <option>KUCCPS Application</option>
+      <option>Computer Training</option>
+    </select>
+
+    <textarea name="message" rows="5" placeholder="Describe your request"></textarea>
+
+    <button type="submit">Submit Request</button>
+
+  </form>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+
+  <p>📍 Irwaga Centre</p>
+  <p>📞 0704723832</p>
+
+  <a class="whatsapp-btn"
+     href="https://wa.me/254704723832?text=Hello%20King's%20Cyber,%20I%20need%20assistance%20with%20your%20services."
+     target="_blank">
+     WhatsApp Us
+  </a>
+</section>
+
+<footer>
+  <p>© 2026 King's Cyber - Irwaga Centre</p>
+  <p>Designed & Programmed by Dennis Kipngeno Korir</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
